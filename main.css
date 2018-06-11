@@ -1,0 +1,10 @@
+.nav-bar {
+    display: inline-block;
+
+    float: right;
+}
+
+.nav-bar li {
+    list-style-type: none;
+    float: left;
+}
