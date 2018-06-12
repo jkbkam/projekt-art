@@ -1,12 +1,14 @@
 .nav-bar {
     display: inline-block;
+    height: 80px;
     margin: 0 auto;
     width: 100%;
-    float: right;
 }
-
-.nav-bar li {
-    height: 80px;
-    list-style-type: none;
+.nav-bar .menu {
     float: right;
+    background-color: red;
+}
+.nav-bar li {
+    list-style-type: none;
+    float: left;
 }
