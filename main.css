@@ -1,14 +1,17 @@
 .nav-bar {
-    display: inline-block;
-    height: 80px;
+    display: flex;
     margin: 0 auto;
     width: 100%;
+    justify-content: space-between;
 }
 .nav-bar .menu {
     float: right;
-    background-color: red;
-}
+  }
 .nav-bar li {
     list-style-type: none;
     float: left;
-}
+    width: 60px;
+    margin: 0 10px;
+    padding: 5px;
+    border: 2px solid blue;
+    }
