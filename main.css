@@ -9,7 +9,7 @@
     color: #4B617E;
     height: 80px;
     position: fixed;
-    z-index: 1;
+z-index: 1;
 }
 .nav-bar .menu {
     float: right;
@@ -52,8 +52,6 @@
     height: 100vh;
     text-align: center;
     margin: 0 auto;
-    z-index: -1;
-
 }
 .carousel-item {
     height: 90vh;
