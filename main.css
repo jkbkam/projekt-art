@@ -1,5 +1,6 @@
 /* MENU */
 .nav-bar {
+    background-color: white;
     display: flex;
     margin: 0 auto;
     width: 100%;
@@ -7,6 +8,8 @@
     align-items: center;
     color: #4B617E;
     height: 80px;
+    position: fixed;
+    z-index: 1;
 }
 .nav-bar .menu {
     float: right;
@@ -21,6 +24,11 @@
     padding: 5px;
     border: 2px solid #4B617E;
     }
+.title {
+    font-size: 20px;
+    padding-top: 15px;
+    padding-left: 150px;
+}
 .nav-bar a:link {
     color: #4B617E;
     text-decoration: none;
@@ -39,9 +47,13 @@
 }
 /* HERO */
 .hero {
+    position: relative;
+    top: 80px;
     height: 100vh;
     text-align: center;
     margin: 0 auto;
+    z-index: -1;
+
 }
 .carousel-item {
     height: 90vh;
