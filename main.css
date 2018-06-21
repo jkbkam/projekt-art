@@ -72,6 +72,12 @@
     text-align: center;
     margin: 0 auto;
 }
+.about-item {
+    margin: 0 auto;
+    width: 50%;
+    padding-top: 300px;
+
+}
 
 /* OFERTA */
 .oferta {
