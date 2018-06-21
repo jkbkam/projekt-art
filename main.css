@@ -9,12 +9,14 @@
     color: #4B617E;
     height: 80px;
     position: fixed;
-z-index: 1;
+    z-index: 1;
 }
+
 .nav-bar .menu {
     float: right;
     margin-right: 50px;
-  }
+}
+
 .nav-bar li {
     list-style-type: none;
     text-align: center;
@@ -23,28 +25,34 @@ z-index: 1;
     margin: 0 10px;
     padding: 5px;
     border: 2px solid #4B617E;
-    }
+}
+
 .title {
     font-size: 20px;
     padding-top: 15px;
     padding-left: 150px;
 }
+
 .nav-bar a:link {
     color: #4B617E;
     text-decoration: none;
 }
+
 .nav-bar a:visited {
     color: #4B617E;
     text-decoration: none;
 }
+
 .nav-bar a:hover {
     color: #B7C8F2;
     text-decoration: none;
 }
+
 .logo {
     font-size: 4em;
     margin-left: 50px;
 }
+
 /* HERO */
 .hero {
     position: relative;
@@ -53,6 +61,7 @@ z-index: 1;
     text-align: center;
     margin: 0 auto;
 }
+
 .carousel-item {
     height: 90vh;
 }
@@ -79,6 +88,16 @@ z-index: 1;
     margin: 0 auto;
     font-size: 2em;
     }
-.kontakt li {
-    list-style-type: none;
+
+.contact-item {
+    margin: 15px auto;
+    width: 25%;
+    padding-top: 5px;
+    border-radius: 2px;
+    border: 2px solid #4B617E;
 }
+.prawa {
+    background-color: #B7C8F2;
+    margin: 0 auto;
+    text-align: center;
+        }
