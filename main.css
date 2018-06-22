@@ -89,16 +89,16 @@
 }
 
 .about-item {
-
     width: 50%;
-    padding-top: 300px;
+    padding: 300px 50px 0 50px;
 }
 
-.about-imgage {
+.about-image {
     width: 50%;
     margin-top: 80px;
     background-image: url("img/stare.jpg");
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 /* OFERTA */
@@ -131,7 +131,7 @@
 }
 
 .oferta-item:hover {
-    box-shadow: 6px 6px 25px #4B617E;
+    box-shadow: 1px 1px 5px #4B617E;
 }
 
 /* KONTAKT */
@@ -142,18 +142,32 @@
     margin: 0 auto;
     font-size: 2em;
     color: #4B617E;
+    background-image: url("img/projekt-white.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
 }
+.contact {
+display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 70%;
 
+
+}
 .contact-title {
     margin: 15px auto;
-    width: 25%;
+    width: 40%;
     padding-top: 5px;
+
 }
 
 .contact-item {
-    margin: 15px auto;
+   margin: 15px auto;
     width: 25%;
     padding-top: 5px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+
 
 }
 
