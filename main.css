@@ -90,6 +90,27 @@
     height: 100vh;
     text-align: center;
     margin: 0 auto;
+
+}
+.oferta-title {
+    padding-top: 100px;
+    color: #4B617E;
+    font-size: 3rem;
+    margin: 0 auto;
+}
+.oferta-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 60%;
+}
+.oferta-item {
+    margin: 40px 5%;
+    border: #4B617E solid 2px;
+    width: 20%;
+    height:150px;
+
 }
 
 /* KONTAKT */
