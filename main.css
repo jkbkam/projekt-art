@@ -104,7 +104,6 @@
 /* OFERTA */
 .oferta {
     height: 100vh;
-    text-align: center;
     margin: 0 auto;
 }
 
@@ -113,6 +112,7 @@
     color: #4B617E;
     font-size: 3rem;
     margin: 0 auto;
+    text-align: center;
 }
 
 .oferta-list {
@@ -124,14 +124,8 @@
     color: #4B617E;
     font-size: 1.5em;
     margin: 20px auto;
-    border: #4B617E solid 2px;
-    border-radius: 5px;
     width: 30%;
     height: 50px;
-}
-
-.oferta-item:hover {
-    box-shadow: 1px 1px 5px #4B617E;
 }
 
 /* KONTAKT */
