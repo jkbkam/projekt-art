@@ -79,6 +79,19 @@
 .carousel-item {
     height: 90vh;
 }
+.carousel-inner {
+    width: 100%;
+}
+.carousel-inner h5 {
+    color: #4B617E;
+    font-size: 30px;
+    margin-bottom: 250px;
+    padding-left: 600px;
+}
+.carousel-inner .fas {
+    font-size: 100px;
+}
+
 
 /* ABOUT */
 .about {
