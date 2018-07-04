@@ -74,25 +74,52 @@
     height: 100vh;
     text-align: center;
     margin: 0 auto;
+    background-image: url("img/construction-site.jpg");
+    background-size: cover;
+    background-position: center;
+}
+/*
+.hero-logo {
+    color: #4B617E;
+    font-size: 2em;
+    font-weight: bold;
+    width: 40%;
+    margin: 0 auto;
+    padding-top: 5%;
+    }
+
+.hero-logo p {
+    line-height: 0;
+}
+.hero-logo .fa-home {
+    font-size: 1.7em;
 }
 
+*/
+/*
 .carousel-item {
     height: 90vh;
 }
+
+.carousel-item .img {
+    object-fit: cover;
+}
+
 .carousel-inner {
     width: 100%;
 }
+
 .carousel-inner h5 {
     color: #4B617E;
     font-size: 30px;
     margin-bottom: 250px;
     padding-left: 600px;
 }
+
 .carousel-inner .fas {
     font-size: 100px;
 }
-
-
+*/
 /* ABOUT */
 .about {
     display: flex;
@@ -150,13 +177,16 @@
     background-image: url("img/projekt-white.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    }
+}
+
 .contact {
     margin: 0 auto;
 }
+
 .contact-title {
     margin: 5px auto;
-   }
+}
+
 .footer {
     width: 100%;
     color: #f8f9fa;
@@ -170,9 +200,8 @@
 @media screen and (max-width: 860px) {
 
     .title {
-    display: none;
-}
-
+        display: none;
+    }
 
     .nav-bar li {
         font-size: 1em;
@@ -185,6 +214,7 @@
         border: 2px solid #4B617E;
         border-radius: 3px;
     }
+
     .nav-bar li:hover {
         color: white;
         background-color: #4B617E;
@@ -198,14 +228,15 @@
         border: 2px solid #4B617E;
         border-radius: 3px;
     }
+
     .nav-bar .menu {
-        float: right;
         margin-right: 5px;
-    }
-    .logo {
-        font-size: 2em;
-        margin-left: 10px;
+        width: 300px;
     }
 
+    .logo {
+        font-size: 2em;
+        margin-left: 5px;
+    }
 
 }
