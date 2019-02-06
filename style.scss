@@ -1,0 +1,97 @@
+$navColor: grey;
+$background: #eac85e;
+$background2: #D79C77;
+
+body {
+  margin: 0;
+  position: relative;
+  font-family: "Lato", sans-serif;
+
+  .landing-page {
+    width: 100%;
+    margin: 0 auto;
+
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    .header {
+      height: 80px;
+      width: 100%;
+      background: $background;
+      position: fixed;
+      display: flex;
+      justify-content: space-evenly;
+
+      .logo {
+        width: 5%;
+        margin: 1% 0 0;
+      }
+
+      .navigation {
+        width: 30%;
+        margin: 1.5% 0 0;
+        display: flex;
+        justify-content: space-evenly;
+
+        a {
+          color: black;
+          font-size: 1vw;
+          text-decoration: none;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+
+    .hero {
+      height: 80vh;
+      width: 100%;
+      background: $background;
+
+      .text-box {
+        width: 50%;
+        margin: 0 auto;
+        text-align: center;
+        padding: 9% 0 3%;
+        font-size: 4vw;
+
+        span {
+          font-style: italic;
+        }
+      }
+
+      .img-box {
+        width: 40%;
+        margin: 0 auto;
+      }
+    }
+
+    .about {
+      margin: 25% 0 10%;
+      display: flex;
+      justify-content: space-evenly;
+
+      .about-time {
+        width: 30%;
+      }
+
+      .about-text {
+        width: 30%;
+        font-size: 1vw;
+        text-align: justify;
+      }
+    }
+
+    .bcg-pic {
+      background: url("./img/projekt-white.jpg");
+      background-attachment: fixed;
+      height: 40vh;
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  position: relative;
+  font-family: "Lato", sans-serif;
+}
+
+body .landing-page {
+  width: 100%;
+  margin: 0 auto;
+}
+
+body .landing-page img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+body .landing-page .header {
+  height: 80px;
+  width: 100%;
+  background: #eac85e;
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+body .landing-page .header .logo {
+  width: 5%;
+  margin: 1% 0 0;
+}
+
+body .landing-page .header .navigation {
+  width: 30%;
+  margin: 1.5% 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+body .landing-page .header .navigation a {
+  color: black;
+  font-size: 1vw;
+  text-decoration: none;
+}
+
+body .landing-page .header .navigation a:hover {
+  text-decoration: underline;
+}
+
+body .landing-page .hero {
+  height: 80vh;
+  width: 100%;
+  background: #eac85e;
+}
+
+body .landing-page .hero .text-box {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 9% 0 3%;
+  font-size: 4vw;
+}
+
+body .landing-page .hero .text-box span {
+  font-style: italic;
+}
+
+body .landing-page .hero .img-box {
+  width: 40%;
+  margin: 0 auto;
+}
+
+body .landing-page .about {
+  margin: 25% 0 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+body .landing-page .about .about-time {
+  width: 30%;
+}
+
+body .landing-page .about .about-text {
+  width: 30%;
+  font-size: 1vw;
+  text-align: justify;
+}
+
+body .landing-page .bcg-pic {
+  background: url("./img/projekt-white.jpg");
+  background-attachment: fixed;
+  height: 40vh;
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */
