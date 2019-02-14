@@ -1,16 +1,19 @@
 $navColor: grey;
-$background: #eac85e;
-$background2: #D79C77;
+$background: #5D737E;
+$background2: #637984;
 
 body {
   margin: 0;
   position: relative;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', serif;
+  
 
   .landing-page {
     width: 100%;
     margin: 0 auto;
-
+    background-color: #F1F2F2;
+    font-family: 'Roboto Mono', monospace;
+    
     img {
       display: block;
       width: 100%;
@@ -26,8 +29,9 @@ body {
       justify-content: space-evenly;
 
       .logo {
-        width: 5%;
-        margin: 1% 0 0;
+        width: 3.5%;
+        margin: .5% 0 0;
+        filter: invert(1);
       }
 
       .navigation {
@@ -37,7 +41,7 @@ body {
         justify-content: space-evenly;
 
         a {
-          color: black;
+          color: white;
           font-size: 1vw;
           text-decoration: none;
 
@@ -51,7 +55,8 @@ body {
     .hero {
       height: 80vh;
       width: 100%;
-      background: $background;
+      background: $background2;
+    
 
       .text-box {
         width: 50%;
@@ -59,39 +64,156 @@ body {
         text-align: center;
         padding: 9% 0 3%;
         font-size: 4vw;
-
-        span {
-          font-style: italic;
-        }
+color: white;
+     
       }
 
       .img-box {
         width: 40%;
         margin: 0 auto;
+        border: solid 6px white;
+           
       }
     }
 
     .about {
-      margin: 25% 0 10%;
-      display: flex;
-      justify-content: space-evenly;
-
-      .about-time {
-        width: 30%;
-      }
+      margin: 20% auto 10%;
+          
 
       .about-text {
-        width: 30%;
+        width: 40%;
         font-size: 1vw;
         text-align: justify;
+        margin: 0 auto;
       }
     }
 
-    .bcg-pic {
+    .bcg-pic1 {
       background: url("./img/projekt-white.jpg");
       background-attachment: fixed;
       height: 40vh;
       width: 100%;
     }
+
+    .ofert {
+      margin: 10% auto 0;
+        .ofert-list {
+          margin: 0 auto;
+          width: 70%;
+          display: flex;
+          flex-flow: wrap;
+          justify-content: space-evenly;
+
+          .ofert-row {
+            display: flex;
+            width: 34%;
+            margin: 2% 0;
+            background: white;
+            &:hover {
+              box-shadow: rgba(128, 128, 128, 0.1) 5px 5px;
+                  }
+           
+            .ofert-img {
+              width: 10%;
+              background: $background;
+              height: 0;
+            }
+
+            .ofert-show {
+              height: 100%;
+              transition: 2s;
+            }
+  
+            .ofert-txt {
+              width: 80%;
+              font-size: 1.2vw;
+
+              p {
+                margin: 0;
+                padding: 10% 5%;
+                text-align: center;
+              }
+            }
+          }
+        }
+    }
+
+.about-img {
+  margin: 5% auto;
+  width: 40%;
+  opacity: 0;
+}
+
+.about-show {
+  opacity: 1;
+  transition: 2s;
+}
+
+    .kontakt {
+      margin: 10% 0 10%;
+      display: flex;
+      justify-content: space-evenly;
+
+      .contact-title {
+        width: 28%;
+        font-size: 1vw;
+        text-align: justify;
+        background: white;
+          .contact-box {
+            width: 54%;
+            display: block;
+            margin: 28% auto;
+          }             
+      }
+
+      .map-box {
+        width: 40%;
+        padding: 1%;
+        background: white;
+
+        iframe {
+          width: 100%;
+        }
+      }
+    }
+
+    .footer { 
+      background: white;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+ 
   }
+}
+
+
+@media screen and (max-width: 1024px) {
+  
+  .landing-page {
+    .header {
+      height: 40px;
+   
+      .logo {
+        width: 3.5%;
+        margin: .5% 0 0;
+        }
+
+      .navigation {
+        width: 50%;
+        margin: 1.5% 0 0;
+        display: flex;
+        justify-content: space-evenly;
+
+        a {
+              font-size: 1.5vw;
+              padding-right: 5%;
+           }
+      }
+    }
+
+
+  }
+
+
 }
